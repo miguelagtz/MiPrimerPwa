@@ -1,0 +1,36 @@
+{
+    "name": "Tareas en PWA",
+    "short_name": "tareas PWA",
+    "description": "Aplicación simple PWA",
+    "start_url": "./",
+    "scope": "./",
+    "display": "standalone",
+    "background_color": "#f4f4f4",
+    "theme_color": "#333",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "./images/icon-128.png",
+        "sizes": "128x128",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "./images/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "./images/screenshot1.png",
+        "sizes": "1280x720",
+        "type": "image/png",
+        "form_factor": "wide"
+      }
+    ],
+    "categories": ["productivity", "utilities"],
+    "display_override": ["standalone", "fullscreen", "minimal-ui"]
+  }
+  

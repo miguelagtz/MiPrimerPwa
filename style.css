@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #9db5e6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+.todo-container {
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #9db5e6;
+    margin: 5px 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
